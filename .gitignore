@@ -43,3 +43,40 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Flutter/Dart/Pub related files
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+
+# Android specific files
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+
+# iOS specific files
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/*.xcodeproj/project.xcworkspace/
+**/ios/Flutter/*.xcodeproj/xcuserdata/
+**/ios/Flutter/*.xcodeproj/project.xcworkspace/
+
+# IntelliJ related files
+.idea/
+*.iml
+
+# VS Code related files
+.vscode/
+
+# Firebase related files
+firebase-debug.log
+
+# macOS specific files
+.DS_Store
+
+# Other system files
+Thumbs.db
+*.swp
